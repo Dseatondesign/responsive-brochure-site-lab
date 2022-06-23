@@ -1,0 +1,15 @@
+@media only screen and (max-width: 750px) {
+  header {
+    padding-top: 80px;
+  }
+  .images {
+    flex-direction: column;
+    align-items:center;
+  }
+  figure {
+    width: 90%;
+  }
+  aside {
+    width: auto;
+  }
+}

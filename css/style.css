@@ -1,55 +1,112 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: Apple Chancery, cursive;
+  font-size: 16px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  background-color: #e1dcbb;
+}
+header {
+  padding-top: 50px;
+}
+h1 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 32px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+}
+nav a {
+  padding: 10px 20px;
+  border: 1px solid black;
+  background-color: rosybrown;
+  color: black;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: black ;
+  color: rosybrown;
+}
 
-  body, html {
-    width: 100%;
-    height: 100%;
-    font-family: Apple Chancery, cursive;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-    background-color: #fff;
-  }  
+aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 15px;
+  width: 100%;
+  font-style: italic;
+  color: black;
+  background-color: rosybrown;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  border-bottom: 1px dashed black;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+figure {
+  width: 33%;
+  margin: 0;
+  padding: 20px;
+} 
+
+img {
+  width: 100%;
+  height: 100%;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+footer {
+  background-color: rosybrown;
+  color: black;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   
-  section {
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-  }
+}
+/* #ID {  
+  display: flex
+  justify-content:
+} */ 
 
-  .images {
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
-    align-items:flex-start;
-  }
+/* flex-start; Items align to the left side of the container
+flex-end; Items align to the right side of the container
+center; Items align at the center of the container
+space-between; Items display with equal space between them
+space-around; Items display with equal space around them */
 
-  figure {
-    width: 33%;
-  } 
-  
-  img {
-    width: 100%;
-    height: 100%;
+/* #ID {  
+  display: flex
+  align-items:
+} */ 
 
-  }
-  /* #ID {  
-    display: flex
-    justify-content:
-     } */ 
-
-   /* flex-start; Items align to the left side of the container
-      flex-end; Items align to the right side of the container
-      center; Items align at the center of the container
-      space-between; Items display with equal space between them
-      space-around; Items display with equal space around them */
-
- /* #ID {  
-    display: flex
-    align-items:
-     } */ 
-
-   /* flex-start; Items align to the Top of the container
-      flex-end; Items align to the Bottom side of the container
-      center; Items align at the vertical center of the container
-      baseline; Items display at the baseline of the container
-      stretch; Items are stretched to fit the container */
+/* flex-start; Items align to the Top of the container
+  flex-end; Items align to the Bottom side of the container
+  center; Items align at the vertical center of the container
+  baseline; Items display at the baseline of the container
+  stretch; Items are stretched to fit the container */
